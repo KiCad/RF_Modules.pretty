@@ -1,6 +1,6 @@
 (module TD1208 (layer F.Cu) (tedit 5773F8C0)
-  (descr "High-Performance, Low-Current SIGFOX™ Gateway")
-  (tags "IOT SIGFOX")
+  (descr https://github.com/Telecom-Design/Documentation_TD_RF_Module/blob/master/TD1208%20Datasheet.pdf)
+  (tags "SIGFOX Module")
   (attr smd)
   (fp_text reference REF** (at -5.715 13.335) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
