@@ -2,7 +2,7 @@
   (descr lmx9838.pdf)
   (tags lmx9838)
   (attr smd)
-  (fp_text user REF** (at 0 -4.25) (layer F.Fab)
+  (fp_text reference REF** (at 0 -4.25) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value lmx9838 (at 0 7.8) (layer F.Fab)
