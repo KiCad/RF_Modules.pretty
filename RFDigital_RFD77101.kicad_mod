@@ -1,4 +1,4 @@
-(module RFDigital_RFD77101 (layer F.Cu) (tedit 594148A9)
+(module RFDigital_RFD77101 (layer F.Cu) (tedit 594B7E41)
   (descr "RFDigital RFD77101 Simblee")
   (tags "RFDigital RFD77101 Simblee")
   (attr smd)
@@ -8,6 +8,7 @@
   (fp_text value RFDigital_RFD77101 (at 0 6.25) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (fp_line (start -2.75 -5) (end -3.5 -4.25) (layer F.Fab) (width 0.1))
   (fp_line (start 4.06 -5.42) (end -4.06 -5.42) (layer F.CrtYd) (width 0.05))
   (fp_line (start -4.06 -5.42) (end -4.06 5.47) (layer F.CrtYd) (width 0.05))
   (fp_line (start -4.06 5.47) (end 4.06 5.47) (layer F.CrtYd) (width 0.05))
@@ -22,8 +23,8 @@
   (fp_text user %R (at 0 0) (layer F.Fab)
     (effects (font (size 1.6 1.6) (thickness 0.16)))
   )
-  (fp_line (start 3.5 -5) (end -3.5 -5) (layer F.Fab) (width 0.1))
-  (fp_line (start -3.5 -5) (end -3.5 5) (layer F.Fab) (width 0.1))
+  (fp_line (start 3.5 -5) (end -2.75 -5) (layer F.Fab) (width 0.1))
+  (fp_line (start -3.5 -4.25) (end -3.5 5) (layer F.Fab) (width 0.1))
   (fp_line (start -3.5 5) (end 3.5 5) (layer F.Fab) (width 0.1))
   (fp_line (start 3.5 5) (end 3.5 -5) (layer F.Fab) (width 0.1))
   (pad 42 smd rect (at -1.2525 0.1675 45) (size 0.7144 0.7144) (layers F.Cu F.Paste F.Mask))
@@ -74,7 +75,7 @@
   (pad 44 smd rect (at 1 2.4) (size 1.5 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 43 smd rect (at -1 2.4) (size 1.5 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -3.305 -4.57) (size 1 0.254) (layers F.Cu F.Paste F.Mask))
-  (model RF_Modules.3dshapes/RFDigital_RFD77101.wrl
+  (model ${KISYS3DMOD}/RF_Modules.3dshapes/RFDigital_RFD77101.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
