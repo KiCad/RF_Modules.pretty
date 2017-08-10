@@ -62,4 +62,9 @@
   (pad 19 smd rect (at 5 -1.92) (size 0.91 0.41) (layers F.Cu F.Paste F.Mask))
   (pad 20 smd rect (at 5 -1.16) (size 0.91 0.41) (layers F.Cu F.Paste F.Mask))
   (pad 21 smd rect (at 5 -0.4) (size 0.91 0.41) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/RF_Modules.3dshapes/CYBLE-21pin-10x10mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -66,4 +66,9 @@
   (pad 28 smd oval (at 6.025 -1.1) (size 3 0.85) (layers F.Cu F.Paste F.Mask))
   (pad 29 smd oval (at 6 -2.35) (size 3 0.85) (layers F.Cu F.Paste F.Mask))
   (pad 30 smd oval (at 6 -3.6) (size 3 0.85) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/RF_Modules.3dshapes/BLE112-A.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

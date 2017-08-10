@@ -60,4 +60,9 @@
   (pad 25 smd oval (at 3.8 -9.7 90) (size 2 0.8) (layers F.Cu F.Paste F.Mask))
   (pad 26 smd oval (at 2.2 -9.7 90) (size 2 0.8) (layers F.Cu F.Paste F.Mask))
   (pad 27 smd oval (at 0.6 -9.7 90) (size 2 0.8) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/RF_Modules.3dshapes/RN42N.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
