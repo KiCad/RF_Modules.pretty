@@ -76,4 +76,9 @@
   (pad 35 smd rect (at 11 -11.92) (size 2.84 1.52) (layers F.Cu F.Paste F.Mask))
   (pad 36 smd rect (at 11 -13.92) (size 2.84 1.52) (layers F.Cu F.Paste F.Mask))
   (pad 37 smd rect (at 11 -15.92) (size 2.84 1.52) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/RF_Modules.3dshapes/Digi_XBee_SMT.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
